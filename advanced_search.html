@@ -5,10 +5,17 @@
         <link rel="stylesheet" href="page_style.css">
     </head>
     <body>
-        <div class="links">
-            <a href="index.html">Google Search</a>
+        <div class="advlinks">
+            <a href="index.html"><img alt="Google" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_light_clr_74x24px.svg"></a>
         </div>
-        <div>
+        <div class="appbar">
+            <label>Advanced Search</label> 
+        </div>
+        <div class="border"></div>
+        <div class="form-block">
+            <div class="form-header">
+                <span>Find pages with...</span>
+            </div>
             <form action="https://google.com/search" name="q">
                 <div class="field">
                     <label for="field1">all these words:</label>
@@ -26,9 +33,11 @@
                     <label for="field4">none of these words: </label>
                     <input type="text" class="textinput" id="field4" value=""  name="as_eq">
                 </div>
-                <input type="submit" value="Advanced Search">
+                <div class="field">
+                    <div></div>
+                    <input class="adv-submit" type="submit" value="Advanced Search">
+                </div>
             </form>
         </div>
     </body>
 </html>
-

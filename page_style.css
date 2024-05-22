@@ -1,5 +1,6 @@
 body {
-    background: #202124
+    background: #202124;
+    font-family: arial, sans-serif;
 }
 
 /* body {
@@ -14,6 +15,88 @@ body {
     justify-content: end;
     padding-left: 15px;
     
+}
+
+.advlinks {
+    display: flex;
+    justify-content: start;
+    padding: 8px;
+    
+}
+
+a.advlinks {
+    color: #e8e8e8;
+    padding: 0px 30px 0px 0px;
+    
+}
+
+.appbar {
+    color: #f28b82;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.border {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.form-block {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px
+}
+
+.form-header {
+    color: #e8eaed;
+}
+
+.form-submit {
+    flex-basis: 50%;
+    display: flex;
+}
+
+.field {
+    display: flex;
+    font-size: 13px;
+    color: #969ba1;
+    height: 30px;
+    padding-top: 5px;
+    }
+
+.field ,label {
+    align-self: center;
+    flex-basis: 15%;
+}
+
+.field, input {
+    flex-basis: 35%;
+}
+
+.field div {
+    flex-basis: 36%;
+}
+
+.field input[type="text"] {
+    background: #202124;
+    border: 1px solid #5f6368;
+    color: #bdc1c6;
+}
+
+.field input[type="submit"] {
+    flex-basis: 10%;
+    background: #8ab4f8;
+    border-color: #8ab4f8;
+    color: #202124;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 12px;
+    margin: 10px 0;
+    height: 30px;
 }
 
 .google-logo {
