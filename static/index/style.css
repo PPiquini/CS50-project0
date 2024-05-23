@@ -49,6 +49,12 @@ body {
     margin: 0 10%;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .google-form input[type="text"] {
     display: flex;
     flex-basis: 50%;
@@ -70,7 +76,7 @@ body {
     color: #e8eaed;
     font-family: arial, sans-serif;
     font-size: 14px;
-    margin: 11px auto;
+    margin: 11px 5px;
     padding: 5px 16px;
     line-height: 27px;
     text-align: center;
